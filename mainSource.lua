@@ -1747,7 +1747,7 @@ function DiscordLib:Window(text)
 
 		ServerTitleFrame.Name = "ServerTitleFrame"
 		ServerTitleFrame.Parent = ServerFrame
-		ServerTitleFrame.BackgroundColor3 = Color3.fromRGB(61, 65, 77)
+		ServerTitleFrame.BackgroundColor3 = Color3.fromRGB(19, 23, 33)
 		ServerTitleFrame.BackgroundTransparency = 1.000
 		ServerTitleFrame.BorderSizePixel = 0
 		ServerTitleFrame.Position = UDim2.new(-0.0010054264, 0, -0.000900391256, 0)
@@ -1768,7 +1768,7 @@ function DiscordLib:Window(text)
 
 		GlowFrame.Name = "GlowFrame"
 		GlowFrame.Parent = ServerFrame
-		GlowFrame.BackgroundColor3 = Color3.fromRGB(61, 65, 77)
+		GlowFrame.BackgroundColor3 = Color3.fromRGB(19, 23, 33)
 		GlowFrame.BackgroundTransparency = 1.000
 		GlowFrame.BorderSizePixel = 0
 		GlowFrame.Position = UDim2.new(-0.0010054264, 0, -0.000900391256, 0)
@@ -1789,7 +1789,7 @@ function DiscordLib:Window(text)
 
 		ServerContentFrame.Name = "ServerContentFrame"
 		ServerContentFrame.Parent = ServerFrame
-		ServerContentFrame.BackgroundColor3 = Color3.fromRGB(61, 65, 77)
+		ServerContentFrame.BackgroundColor3 = Color3.fromRGB(19, 23, 33)
 		ServerContentFrame.BackgroundTransparency = 1.000
 		ServerContentFrame.BorderSizePixel = 0
 		ServerContentFrame.Position = UDim2.new(-0.0010054264, 0, 0.106338218, 0)
