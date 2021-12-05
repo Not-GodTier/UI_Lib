@@ -205,7 +205,7 @@ function DiscordLib:Window(text)
 
 	UserIcon.Name = "UserIcon"
 	UserIcon.Parent = Userpad
-	UserIcon.BackgroundColor3 = Color3.fromRGB(4, 4, 4)
+	UserIcon.BackgroundColor3 = Color3.fromRGB(31, 33, 36)
 	UserIcon.BorderSizePixel = 0
 	UserIcon.Position = UDim2.new(0.0340000018, 0, 0.123999998, 0)
 	UserIcon.Size = UDim2.new(0, 32, 0, 32)
@@ -226,8 +226,8 @@ function DiscordLib:Window(text)
 	UserCircleImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	UserCircleImage.BackgroundTransparency = 1.000
 	UserCircleImage.Size = UDim2.new(0, 32, 0, 32)
-	UserCircleImage.Image = ""
-	UserCircleImage.ImageColor3 = Color3.fromRGB(4, 4, 4)
+	UserCircleImage.Image = "rbxassetid://4031889928"
+	UserCircleImage.ImageColor3 = Color3.fromRGB(41, 43, 47)
 	
 	UserName.Name = "UserName"
 	UserName.Parent = Userpad
@@ -341,7 +341,7 @@ function DiscordLib:Window(text)
 	local SettingsOpenBtn = Instance.new("TextButton")
 	local SettingsOpenBtnIco = Instance.new("ImageLabel")
 	
-	SettingsOpenBtn.Name = ""
+	SettingsOpenBtn.Name = "SettingsOpenBtn"
 	SettingsOpenBtn.Parent = Userpad
 	SettingsOpenBtn.BackgroundColor3 = Color3.fromRGB(53, 56, 62)
 	SettingsOpenBtn.BackgroundTransparency = 1.000
@@ -357,8 +357,8 @@ function DiscordLib:Window(text)
 	SettingsOpenBtnIco.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
 	SettingsOpenBtnIco.BackgroundTransparency = 1.000
 	SettingsOpenBtnIco.Size = UDim2.new(0, 18, 0, 18)
-	SettingsOpenBtnIco.Image = ""
-	SettingsOpenBtnIco.ImageColor3 = Color3.fromRGB(4, 4, 4)
+	SettingsOpenBtnIco.Image = "http://www.roblox.com/asset/?id=6031280882"
+	SettingsOpenBtnIco.ImageColor3 = Color3.fromRGB(220, 220, 220)
 	local SettingsFrame = Instance.new("Frame")
 	local Settings = Instance.new("Frame")
 	local SettingsHolder = Instance.new("Frame")
