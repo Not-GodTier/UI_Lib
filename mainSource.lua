@@ -1945,12 +1945,12 @@ function DiscordLib:Window(text)
 						TweenService:Create(
 							v,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(61, 65, 77)}
+							{BackgroundColor3 = Color3.fromRGB(46, 204, 113)}
 						):Play()
 						TweenService:Create(
 							Server,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(61, 65, 77)}
+							{BackgroundColor3 = Color3.fromRGB(46, 204, 113)}
 						):Play()
 						TweenService:Create(
 							v.ServerCorner,
