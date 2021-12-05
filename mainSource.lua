@@ -1833,7 +1833,7 @@ function DiscordLib:Window(text)
 
 		ChannelContentFrame.Name = "ChannelContentFrame"
 		ChannelContentFrame.Parent = ServerFrame
-		ChannelContentFrame.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+		ChannelContentFrame.BackgroundColor3 = Color3.fromRGB(10, 14, 21)
 		ChannelContentFrame.BorderSizePixel = 0
 		ChannelContentFrame.ClipsDescendants = true
 		ChannelContentFrame.Position = UDim2.new(0.294561088, 0, 0.106338218, 0)
