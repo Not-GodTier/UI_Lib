@@ -115,7 +115,7 @@ function DiscordLib:Window(text)
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = Discord
 	MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	MainFrame.BackgroundColor3 = Color3.fromRGB(8, 12, 16)
+	MainFrame.BackgroundColor3 = Color3.fromRGB(0, 8, 16)
 	MainFrame.BorderSizePixel = 0
 	MainFrame.ClipsDescendants = true
 	MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -1801,7 +1801,7 @@ function DiscordLib:Window(text)
 
 		ChannelTitleFrame.Name = "ChannelTitleFrame"
 		ChannelTitleFrame.Parent = ServerFrame
-		ChannelTitleFrame.BackgroundColor3 = Color3.fromRGB(10, 14, 21)
+		ChannelTitleFrame.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
 		ChannelTitleFrame.BorderSizePixel = 0
 		ChannelTitleFrame.Position = UDim2.new(0.294561088, 0, -0.000900391256, 0)
 		ChannelTitleFrame.Size = UDim2.new(0, 429, 0, 40)
@@ -1991,7 +1991,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				Server,
 				TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(46, 204, 113)}
+				{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
 			):Play()
 			TweenService:Create(
 				ServerBtnCorner,
