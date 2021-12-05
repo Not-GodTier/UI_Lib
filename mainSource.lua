@@ -1675,7 +1675,7 @@ function DiscordLib:Window(text)
 		Server.AutoButtonColor = false
 		Server.Font = Enum.Font.Gotham
 		Server.Text = ""
-		Server.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Server.TextColor3 = Color3.fromRGB(46, 204, 113)
 		Server.TextSize = 18.000
 
 		ServerBtnCorner.CornerRadius = UDim.new(1, 0)
