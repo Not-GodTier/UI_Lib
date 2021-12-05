@@ -1733,7 +1733,7 @@ function DiscordLib:Window(text)
 
 		ServerFrame1.Name = "ServerFrame1"
 		ServerFrame1.Parent = ServerFrame
-		ServerFrame1.BackgroundColor3 = Color3.fromRGB(0, 0, 7)
+		ServerFrame1.BackgroundColor3 = Color3.fromRGB(23, 26, 33)
 		ServerFrame1.BorderSizePixel = 0
 		ServerFrame1.Position = UDim2.new(0, 0, 0.972290039, 0)
 		ServerFrame1.Size = UDim2.new(0, 12, 0, 10)
@@ -1747,7 +1747,7 @@ function DiscordLib:Window(text)
 
 		ServerTitleFrame.Name = "ServerTitleFrame"
 		ServerTitleFrame.Parent = ServerFrame
-		ServerTitleFrame.BackgroundColor3 = Color3.fromRGB(0, 9, 33)
+		ServerTitleFrame.BackgroundColor3 = Color3.fromRGB(23, 26, 33)
 		ServerTitleFrame.BackgroundTransparency = 1.000
 		ServerTitleFrame.BorderSizePixel = 0
 		ServerTitleFrame.Position = UDim2.new(-0.0010054264, 0, -0.000900391256, 0)
