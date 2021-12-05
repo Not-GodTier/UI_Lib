@@ -1724,7 +1724,7 @@ function DiscordLib:Window(text)
 
 		ServerFrame.Name = "ServerFrame"
 		ServerFrame.Parent = ServersHolder
-		ServerFrame.BackgroundColor3 = Color3.fromRGB(0, 8, 8)
+		ServerFrame.BackgroundColor3 = Color3.fromRGB(19, 23, 33)
 		ServerFrame.BorderSizePixel = 0
 		ServerFrame.ClipsDescendants = true
 		ServerFrame.Position = UDim2.new(0.105726875, 0, 1.01262593, 0)
@@ -1733,14 +1733,14 @@ function DiscordLib:Window(text)
 
 		ServerFrame1.Name = "ServerFrame1"
 		ServerFrame1.Parent = ServerFrame
-		ServerFrame1.BackgroundColor3 = Color3.fromRGB(0, 23, 33)
+		ServerFrame1.BackgroundColor3 = Color3.fromRGB(19, 23, 33)
 		ServerFrame1.BorderSizePixel = 0
 		ServerFrame1.Position = UDim2.new(0, 0, 0.972290039, 0)
 		ServerFrame1.Size = UDim2.new(0, 12, 0, 10)
 
 		ServerFrame2.Name = "ServerFrame2"
 		ServerFrame2.Parent = ServerFrame
-		ServerFrame2.BackgroundColor3 = Color3.fromRGB(0, 23, 33)
+		ServerFrame2.BackgroundColor3 = Color3.fromRGB(19, 23, 33)
 		ServerFrame2.BorderSizePixel = 0
 		ServerFrame2.Position = UDim2.new(0.980295539, 0, 0.972290039, 0)
 		ServerFrame2.Size = UDim2.new(0, 12, 0, 9)
@@ -1801,7 +1801,7 @@ function DiscordLib:Window(text)
 
 		ChannelTitleFrame.Name = "ChannelTitleFrame"
 		ChannelTitleFrame.Parent = ServerFrame
-		ChannelTitleFrame.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+		ChannelTitleFrame.BackgroundColor3 = Color3.fromRGB(10, 14, 21)
 		ChannelTitleFrame.BorderSizePixel = 0
 		ChannelTitleFrame.Position = UDim2.new(0.294561088, 0, -0.000900391256, 0)
 		ChannelTitleFrame.Size = UDim2.new(0, 429, 0, 40)
