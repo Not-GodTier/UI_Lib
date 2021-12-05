@@ -1815,7 +1815,7 @@ function DiscordLib:Window(text)
 		Hashtag.Size = UDim2.new(0, 19, 0, 39)
 		Hashtag.Font = Enum.Font.Gotham
 		Hashtag.Text = "#"
-		Hashtag.TextColor3 = Color3.fromRGB(46, 204, 113)
+		Hashtag.TextColor3 = Color3.fromRGB(114, 118, 125)
 		Hashtag.TextSize = 25.000
 
 		ChannelTitle.Name = "ChannelTitle"
@@ -2092,7 +2092,7 @@ function DiscordLib:Window(text)
 			ChannelBtn.MouseLeave:Connect(function()
 				if currentchanneltoggled ~= ChannelBtn.Name then
 				ChannelBtn.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
-				ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
+				ChannelBtnTitle.TextColor3 = Color3.fromRGB(46, 204, 113)
 				end
 			end)
 			
@@ -2106,7 +2106,7 @@ function DiscordLib:Window(text)
 				for i, v in next, ServerChannelHolder:GetChildren() do
 					if v.ClassName == "TextButton" then
 						v.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
-						v.ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
+						v.ChannelBtnTitle.TextColor3 = Color3.fromRGB(46, 204, 113)
 					end
 					ServerFrame.Visible = true
 				end
