@@ -682,7 +682,7 @@ function DiscordLib:Window(text)
 	SearchIco.Position = UDim2.new(0.150000006, 0, 0.100000001, 0)
 	SearchIco.Size = UDim2.new(0, 15, 0, 15)
 	SearchIco.Image = "http://www.roblox.com/asset/?id=6034407084"
-	SearchIco.ImageColor3 = Color3.fromRGB(114, 118, 125)
+	SearchIco.ImageColor3 = Color3.fromRGB(46, 204, 113)
 	
 	UserPanelUserIcon.MouseEnter:Connect(function()
 		BlackFrame.Visible = true
@@ -1815,7 +1815,7 @@ function DiscordLib:Window(text)
 		Hashtag.Size = UDim2.new(0, 19, 0, 39)
 		Hashtag.Font = Enum.Font.Gotham
 		Hashtag.Text = "#"
-		Hashtag.TextColor3 = Color3.fromRGB(114, 118, 125)
+		Hashtag.TextColor3 = Color3.fromRGB(46, 204, 113)
 		Hashtag.TextSize = 25.000
 
 		ChannelTitle.Name = "ChannelTitle"
@@ -2042,7 +2042,7 @@ function DiscordLib:Window(text)
 			ChannelBtnHashtag.Size = UDim2.new(0, 24, 0, 30)
 			ChannelBtnHashtag.Font = Enum.Font.Gotham
 			ChannelBtnHashtag.Text = "#"
-			ChannelBtnHashtag.TextColor3 = Color3.fromRGB(114, 118, 125)
+			ChannelBtnHashtag.TextColor3 = Color3.fromRGB(46, 204, 113)
 			ChannelBtnHashtag.TextSize = 21.000
 
 			ChannelBtnTitle.Name = "ChannelBtnTitle"
@@ -2054,7 +2054,7 @@ function DiscordLib:Window(text)
 			ChannelBtnTitle.Size = UDim2.new(0, 95, 0, 39)
 			ChannelBtnTitle.Font = Enum.Font.Gotham
 			ChannelBtnTitle.Text = text
-			ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
+			ChannelBtnTitle.TextColor3 = Color3.fromRGB(46, 204, 113)
 			ChannelBtnTitle.TextSize = 14.000
 			ChannelBtnTitle.TextXAlignment = Enum.TextXAlignment.Left
 			ServerChannelHolder.CanvasSize = UDim2.new(0, 0, 0, ServerChannelHolderLayout.AbsoluteContentSize.Y)
@@ -2092,7 +2092,7 @@ function DiscordLib:Window(text)
 			ChannelBtn.MouseLeave:Connect(function()
 				if currentchanneltoggled ~= ChannelBtn.Name then
 				ChannelBtn.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
-				ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
+				ChannelBtnTitle.TextColor3 = Color3.fromRGB(46, 204, 113)
 				end
 			end)
 			
@@ -2106,7 +2106,7 @@ function DiscordLib:Window(text)
 				for i, v in next, ServerChannelHolder:GetChildren() do
 					if v.ClassName == "TextButton" then
 						v.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
-						v.ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
+						v.ChannelBtnTitle.TextColor3 = Color3.fromRGB(46, 204, 113)
 					end
 					ServerFrame.Visible = true
 				end
@@ -2206,7 +2206,7 @@ function DiscordLib:Window(text)
 
 				ToggleFrame.Name = "ToggleFrame"
 				ToggleFrame.Parent = Toggle
-				ToggleFrame.BackgroundColor3 = Color3.fromRGB(114, 118, 125)
+				ToggleFrame.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
 				ToggleFrame.Position = UDim2.new(0.900481343, -5, 0.13300018, 0)
 				ToggleFrame.Size = UDim2.new(0, 40, 0, 21)
 
@@ -2233,7 +2233,7 @@ function DiscordLib:Window(text)
 				Icon.Position = UDim2.new(0, 8, 0, 8)
 				Icon.Size = UDim2.new(0, 13, 0, 13)
 				Icon.Image = "http://www.roblox.com/asset/?id=6035047409"
-				Icon.ImageColor3 = Color3.fromRGB(114, 118, 125)
+				Icon.ImageColor3 = Color3.fromRGB(46, 204, 113)
 				
 				Toggle.MouseButton1Click:Connect(function()
 					if toggled == false then
@@ -2264,12 +2264,12 @@ function DiscordLib:Window(text)
 						TweenService:Create(
 							Icon,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{ImageColor3 = Color3.fromRGB(114, 118, 125)}
+							{ImageColor3 = Color3.fromRGB(46, 204, 113)}
 						):Play()
 						TweenService:Create(
 							ToggleFrame,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(114, 118, 125)}
+							{BackgroundColor3 = Color3.fromRGB(46, 204, 113)}
 						):Play()
 						ToggleFrameCircle:TweenPosition(UDim2.new(0.234999999, -5, 0.133000001, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
 						TweenService:Create(
