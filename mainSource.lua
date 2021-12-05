@@ -1848,7 +1848,7 @@ function DiscordLib:Window(text)
 		GlowChannel.Size = UDim2.new(1.06396091, 30, 0.228228226, 30)
 		GlowChannel.ZIndex = 0
 		GlowChannel.Image = "rbxassetid://4996891970"
-		GlowChannel.ImageColor3 = Color3.fromRGB(19, 23, 33)
+		GlowChannel.ImageColor3 = Color3.fromRGB(46, 204, 113)
 		GlowChannel.ScaleType = Enum.ScaleType.Slice
 		GlowChannel.SliceCenter = Rect.new(20, 20, 280, 280)
 
@@ -1950,7 +1950,7 @@ function DiscordLib:Window(text)
 						TweenService:Create(
 							Server,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(46, 204, 113)}
+							{BackgroundColor3 = Color3.fromRGB(19, 23, 33)}
 						):Play()
 						TweenService:Create(
 							v.ServerCorner,
