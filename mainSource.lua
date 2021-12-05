@@ -151,7 +151,7 @@ function DiscordLib:Window(text)
 
 	CloseBtn.Name = "CloseBtn"
 	CloseBtn.Parent = TopFrame
-	CloseBtn.BackgroundColor3 = Color3.fromRGB(32, 34, 37)
+	CloseBtn.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
 	CloseBtn.BackgroundTransparency = 0
 	CloseBtn.Position = UDim2.new(0.959063113, 0, -0.0169996787, 0)
 	CloseBtn.Size = UDim2.new(0, 28, 0, 22)
@@ -169,11 +169,11 @@ function DiscordLib:Window(text)
 	CloseIcon.Position = UDim2.new(0.189182192, 0, 0.128935531, 0)
 	CloseIcon.Size = UDim2.new(0, 17, 0, 17)
 	CloseIcon.Image = "http://www.roblox.com/asset/?id=6035047409"
-	CloseIcon.ImageColor3 = Color3.fromRGB(220, 221, 222)
+	CloseIcon.ImageColor3 = Color3.fromRGB(46, 204, 113)
 
 	MinimizeBtn.Name = "MinimizeButton"
 	MinimizeBtn.Parent = TopFrame
-	MinimizeBtn.BackgroundColor3 = Color3.fromRGB(32, 34, 37)
+	MinimizeBtn.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
 	MinimizeBtn.BackgroundTransparency = 0
 	MinimizeBtn.Position = UDim2.new(0.917947114, 0, -0.0169996787, 0)
 	MinimizeBtn.Size = UDim2.new(0, 28, 0, 22)
@@ -191,7 +191,7 @@ function DiscordLib:Window(text)
 	MinimizeIcon.Position = UDim2.new(0.189182192, 0, 0.128935531, 0)
 	MinimizeIcon.Size = UDim2.new(0, 17, 0, 17)
 	MinimizeIcon.Image = "http://www.roblox.com/asset/?id=6035067836"
-	MinimizeIcon.ImageColor3 = Color3.fromRGB(220, 221, 222)
+	MinimizeIcon.ImageColor3 = Color3.fromRGB(46, 204, 113)
 
 	ServersHolder.Name = "ServersHolder"
 	ServersHolder.Parent = TopFrameHolder
@@ -402,7 +402,7 @@ function DiscordLib:Window(text)
 
 	SettingsFrame.Name = "SettingsFrame"
 	SettingsFrame.Parent = MainFrame
-	SettingsFrame.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+	SettingsFrame.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 	SettingsFrame.BackgroundTransparency = 1.000
 	SettingsFrame.Size = UDim2.new(0, 681, 0, 396)
 	SettingsFrame.Visible = false
@@ -1863,7 +1863,7 @@ function DiscordLib:Window(text)
 		ServerChannelHolder.Size = UDim2.new(0, 179, 0, 278)
 		ServerChannelHolder.CanvasSize = UDim2.new(0, 0, 0, 0)
 		ServerChannelHolder.ScrollBarThickness = 4
-		ServerChannelHolder.ScrollBarImageColor3 = Color3.fromRGB(18, 19, 21)
+		ServerChannelHolder.ScrollBarImageColor3 = Color3.fromRGB(4, 4, 4)
 		ServerChannelHolder.ScrollBarImageTransparency = 1
 
 		ServerChannelHolderLayout.Name = "ServerChannelHolderLayout"
@@ -1913,7 +1913,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						Server,
 						TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(19, 23, 33)}
+						{BackgroundColor3 = Color3.fromRGB(4, 4, 4)}
 					):Play()
 					TweenService:Create(
 						ServerBtnCorner,
@@ -1945,7 +1945,7 @@ function DiscordLib:Window(text)
 						TweenService:Create(
 							v,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(19, 23, 33)}
+							{BackgroundColor3 = Color3.fromRGB(4, 4, 4)}
 						):Play()
 						TweenService:Create(
 							Server,
@@ -2084,7 +2084,7 @@ function DiscordLib:Window(text)
 			
 			ChannelBtn.MouseEnter:Connect(function()
 				if currentchanneltoggled ~= ChannelBtn.Name then
-				ChannelBtn.BackgroundColor3 = Color3.fromRGB(52,55,60)
+				ChannelBtn.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
 					ChannelBtnTitle.TextColor3 = Color3.fromRGB(220,221,222)
 				end
 			end)
