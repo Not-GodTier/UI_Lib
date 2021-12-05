@@ -198,7 +198,7 @@ function DiscordLib:Window(text)
 
 	Userpad.Name = "Userpad"
 	Userpad.Parent = TopFrameHolder
-	Userpad.BackgroundColor3 = Color3.fromRGB(41, 43, 47)
+	Userpad.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
 	Userpad.BorderSizePixel = 0
 	Userpad.Position = UDim2.new(0.106243297, 0, 15.9807148, 0)
 	Userpad.Size = UDim2.new(0, 179, 0, 43)
@@ -299,19 +299,19 @@ function DiscordLib:Window(text)
 
 	CloseBtn.MouseLeave:Connect(
 		function()
-			CloseBtn.BackgroundColor3 = Color3.fromRGB(32, 34, 37)
+			CloseBtn.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
 		end
 	)
 
 	MinimizeBtn.MouseEnter:Connect(
 		function()
-			MinimizeBtn.BackgroundColor3 = Color3.fromRGB(40, 43, 46)
+			MinimizeBtn.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
 		end
 	)
 
 	MinimizeBtn.MouseLeave:Connect(
 		function()
-			MinimizeBtn.BackgroundColor3 = Color3.fromRGB(32, 34, 37)
+			MinimizeBtn.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
 		end
 	)
 
@@ -1768,7 +1768,7 @@ function DiscordLib:Window(text)
 
 		GlowFrame.Name = "GlowFrame"
 		GlowFrame.Parent = ServerFrame
-		GlowFrame.BackgroundColor3 = Color3.fromRGB(19, 23, 33)
+		GlowFrame.BackgroundColor3 = Color3.fromRGB(4, 4, 4)
 		GlowFrame.BackgroundTransparency = 1.000
 		GlowFrame.BorderSizePixel = 0
 		GlowFrame.Position = UDim2.new(-0.0010054264, 0, -0.000900391256, 0)
