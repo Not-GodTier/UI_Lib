@@ -1815,7 +1815,7 @@ function DiscordLib:Window(text)
 		Hashtag.Size = UDim2.new(0, 19, 0, 39)
 		Hashtag.Font = Enum.Font.Gotham
 		Hashtag.Text = "#"
-		Hashtag.TextColor3 = Color3.fromRGB(46, 204, 113)
+		Hashtag.TextColor3 = Color3.fromRGB(114, 118, 125)
 		Hashtag.TextSize = 25.000
 
 		ChannelTitle.Name = "ChannelTitle"
@@ -2042,7 +2042,7 @@ function DiscordLib:Window(text)
 			ChannelBtnHashtag.Size = UDim2.new(0, 24, 0, 30)
 			ChannelBtnHashtag.Font = Enum.Font.Gotham
 			ChannelBtnHashtag.Text = "#"
-			ChannelBtnHashtag.TextColor3 = Color3.fromRGB(46, 204, 113)
+			ChannelBtnHashtag.TextColor3 = Color3.fromRGB(114, 118, 125)
 			ChannelBtnHashtag.TextSize = 21.000
 
 			ChannelBtnTitle.Name = "ChannelBtnTitle"
@@ -2364,7 +2364,7 @@ function DiscordLib:Window(text)
 				ValueBubble.Name = "ValueBubble"
 				ValueBubble.Parent = Zip
 				ValueBubble.AnchorPoint = Vector2.new(0.5, 0.5)
-				ValueBubble.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+				ValueBubble.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
 				ValueBubble.Position = UDim2.new(0.5, 0, -1.00800002, 0)
 				ValueBubble.Size = UDim2.new(0, 36, 0, 21)
 				ValueBubble.Visible = false
@@ -2390,7 +2390,7 @@ function DiscordLib:Window(text)
 				SquareBubble.Name = "SquareBubble"
 				SquareBubble.Parent = ValueBubble
 				SquareBubble.AnchorPoint = Vector2.new(0.5, 0.5)
-				SquareBubble.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+				SquareBubble.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
 				SquareBubble.BorderSizePixel = 0
 				SquareBubble.Position = UDim2.new(0.493000001, 0, 0.637999971, 0)
 				SquareBubble.Rotation = 45.000
