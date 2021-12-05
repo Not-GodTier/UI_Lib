@@ -14,9 +14,7 @@ pcall(function()
 	userinfo = HttpService:JSONDecode(readfile("discordlibinfo.txt"));
 end)
 
-pfp = userinfo["pfp"] or "https://www.roblox.com/headshot-thumbnail/image?userId=".. game.Players.LocalPlayer.UserId .."&width=420&height=420&format=png"
-user =  userinfo["user"] or game.Players.LocalPlayer.Name
-tag = userinfo["tag"] or tostring(math.random(1000,9999))
+
 
 local function SaveInfo()
 	userinfo["pfp"] = pfp
@@ -357,8 +355,8 @@ function DiscordLib:Window(text)
 	SettingsOpenBtnIco.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
 	SettingsOpenBtnIco.BackgroundTransparency = 1.000
 	SettingsOpenBtnIco.Size = UDim2.new(0, 18, 0, 18)
-	SettingsOpenBtnIco.Image = "http://www.roblox.com/asset/?id=6031280882"
-	SettingsOpenBtnIco.ImageColor3 = Color3.fromRGB(220, 220, 220)
+	SettingsOpenBtnIco.Image = ""
+	SettingsOpenBtnIco.ImageColor3 = Color3.fromRGB(4, 4, 4)
 	local SettingsFrame = Instance.new("Frame")
 	local Settings = Instance.new("Frame")
 	local SettingsHolder = Instance.new("Frame")
@@ -932,7 +930,7 @@ function DiscordLib:Window(text)
 		ResetBtn.TextSize = 13.000
 		
 		ResetBtn.MouseButton1Click:Connect(function()
-			pfp = "https://www.roblox.com/headshot-thumbnail/image?userId=".. game.Players.LocalPlayer.UserId .."&width=420&height=420&format=png"
+			pfp = "".. game.Players.LocalPlayer.UserId ..""
 			UserImage.Image = pfp 
 			UserPanelUserImage.Image = pfp
 			SaveInfo()
