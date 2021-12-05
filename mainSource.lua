@@ -682,7 +682,7 @@ function DiscordLib:Window(text)
 	SearchIco.Position = UDim2.new(0.150000006, 0, 0.100000001, 0)
 	SearchIco.Size = UDim2.new(0, 15, 0, 15)
 	SearchIco.Image = "http://www.roblox.com/asset/?id=6034407084"
-	SearchIco.ImageColor3 = Color3.fromRGB(46, 204, 113)
+	SearchIco.ImageColor3 = Color3.fromRGB(114, 118, 125)
 	
 	UserPanelUserIcon.MouseEnter:Connect(function()
 		BlackFrame.Visible = true
@@ -833,7 +833,7 @@ function DiscordLib:Window(text)
 
 		ChangeBtn.Name = "ChangeBtn"
 		ChangeBtn.Parent = AvatarChange
-		ChangeBtn.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
+		ChangeBtn.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
 		ChangeBtn.Position = UDim2.new(0.749670506, 0, 0.823232353, 0)
 		ChangeBtn.Size = UDim2.new(0, 76, 0, 27)
 		ChangeBtn.Font = Enum.Font.Gotham
@@ -854,7 +854,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				ChangeBtn,
 				TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(46, 204, 113)}
+				{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
 			):Play()
 		end)
 
@@ -907,7 +907,7 @@ function DiscordLib:Window(text)
 
 		CloseBtn1.Name = "CloseBtn1"
 		CloseBtn1.Parent = AvatarChange
-		CloseBtn1.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
+		CloseBtn1.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
 		CloseBtn1.BackgroundTransparency = 1.000
 		CloseBtn1.Position = UDim2.new(0.495000005, 0, 0.823000014, 0)
 		CloseBtn1.Size = UDim2.new(0, 76, 0, 27)
@@ -922,7 +922,7 @@ function DiscordLib:Window(text)
 
 		ResetBtn.Name = "ResetBtn"
 		ResetBtn.Parent = AvatarChange
-		ResetBtn.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
+		ResetBtn.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
 		ResetBtn.BackgroundTransparency = 1.000
 		ResetBtn.Position = UDim2.new(0.260895967, 0, 0.823000014, 0)
 		ResetBtn.Size = UDim2.new(0, 76, 0, 27)
@@ -1009,7 +1009,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				TextBoxFrame,
 				TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(46, 204, 113)}
+				{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
 			):Play()
 		end)
 
@@ -1329,7 +1329,7 @@ function DiscordLib:Window(text)
 
 		ChangeBtn.Name = "ChangeBtn"
 		ChangeBtn.Parent = UserChange
-		ChangeBtn.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
+		ChangeBtn.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
 		ChangeBtn.Position = UDim2.new(0.749670506, 0, 0.823232353, 0)
 		ChangeBtn.Size = UDim2.new(0, 76, 0, 27)
 		ChangeBtn.Font = Enum.Font.Gotham
@@ -1350,7 +1350,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				ChangeBtn,
 				TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(46, 204, 113)}
+				{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
 			):Play()
 		end)
 		
@@ -1408,7 +1408,7 @@ function DiscordLib:Window(text)
 
 		CloseBtn1.Name = "CloseBtn1"
 		CloseBtn1.Parent = UserChange
-		CloseBtn1.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
+		CloseBtn1.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
 		CloseBtn1.BackgroundTransparency = 1.000
 		CloseBtn1.Position = UDim2.new(0.495000005, 0, 0.823000014, 0)
 		CloseBtn1.Size = UDim2.new(0, 76, 0, 27)
@@ -1485,7 +1485,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				TextBoxFrame,
 				TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(46, 204, 113)}
+				{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
 			):Play()
 		end)
 		
@@ -1501,7 +1501,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				TextBoxFrame,
 				TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(46, 204, 113)}
+				{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
 			):Play()
 		end)
 
@@ -1609,7 +1609,7 @@ function DiscordLib:Window(text)
 
 		AlrightBtn.Name = "AlrightBtn"
 		AlrightBtn.Parent = Notification
-		AlrightBtn.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
+		AlrightBtn.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
 		AlrightBtn.Position = UDim2.new(0.0332369953, 0, 0.789141417, 0)
 		AlrightBtn.Size = UDim2.new(0, 322, 0, 27)
 		AlrightBtn.Font = Enum.Font.Gotham
@@ -1650,7 +1650,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				AlrightBtn,
 				TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(46, 204, 113)}
+				{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
 			):Play()
 		end)
 	end
@@ -1815,7 +1815,7 @@ function DiscordLib:Window(text)
 		Hashtag.Size = UDim2.new(0, 19, 0, 39)
 		Hashtag.Font = Enum.Font.Gotham
 		Hashtag.Text = "#"
-		Hashtag.TextColor3 = Color3.fromRGB(46, 204, 113)
+		Hashtag.TextColor3 = Color3.fromRGB(114, 118, 125)
 		Hashtag.TextSize = 25.000
 
 		ChannelTitle.Name = "ChannelTitle"
@@ -1833,7 +1833,7 @@ function DiscordLib:Window(text)
 
 		ChannelContentFrame.Name = "ChannelContentFrame"
 		ChannelContentFrame.Parent = ServerFrame
-		ChannelContentFrame.BackgroundColor3 = Color3.fromRGB(10, 14, 21)
+		ChannelContentFrame.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
 		ChannelContentFrame.BorderSizePixel = 0
 		ChannelContentFrame.ClipsDescendants = true
 		ChannelContentFrame.Position = UDim2.new(0.294561088, 0, 0.106338218, 0)
@@ -2042,7 +2042,7 @@ function DiscordLib:Window(text)
 			ChannelBtnHashtag.Size = UDim2.new(0, 24, 0, 30)
 			ChannelBtnHashtag.Font = Enum.Font.Gotham
 			ChannelBtnHashtag.Text = "#"
-			ChannelBtnHashtag.TextColor3 = Color3.fromRGB(46, 204, 113)
+			ChannelBtnHashtag.TextColor3 = Color3.fromRGB(114, 118, 125)
 			ChannelBtnHashtag.TextSize = 21.000
 
 			ChannelBtnTitle.Name = "ChannelBtnTitle"
@@ -2054,7 +2054,7 @@ function DiscordLib:Window(text)
 			ChannelBtnTitle.Size = UDim2.new(0, 95, 0, 39)
 			ChannelBtnTitle.Font = Enum.Font.Gotham
 			ChannelBtnTitle.Text = text
-			ChannelBtnTitle.TextColor3 = Color3.fromRGB(46, 204, 113)
+			ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
 			ChannelBtnTitle.TextSize = 14.000
 			ChannelBtnTitle.TextXAlignment = Enum.TextXAlignment.Left
 			ServerChannelHolder.CanvasSize = UDim2.new(0, 0, 0, ServerChannelHolderLayout.AbsoluteContentSize.Y)
@@ -2092,7 +2092,7 @@ function DiscordLib:Window(text)
 			ChannelBtn.MouseLeave:Connect(function()
 				if currentchanneltoggled ~= ChannelBtn.Name then
 				ChannelBtn.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
-				ChannelBtnTitle.TextColor3 = Color3.fromRGB(46, 204, 113)
+				ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
 				end
 			end)
 			
@@ -2106,7 +2106,7 @@ function DiscordLib:Window(text)
 				for i, v in next, ServerChannelHolder:GetChildren() do
 					if v.ClassName == "TextButton" then
 						v.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
-						v.ChannelBtnTitle.TextColor3 = Color3.fromRGB(46, 204, 113)
+						v.ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
 					end
 					ServerFrame.Visible = true
 				end
@@ -2131,7 +2131,7 @@ function DiscordLib:Window(text)
 
 				Button.Name = "Button"
 				Button.Parent = ChannelHolder
-				Button.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
+				Button.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
 				Button.Size = UDim2.new(0, 401, 0, 30)
 				Button.AutoButtonColor = false
 				Button.Font = Enum.Font.Gotham
@@ -2165,7 +2165,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						Button,
 						TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(46, 204, 113)}
+						{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
 					):Play()
 				end)
 				ChannelHolder.CanvasSize = UDim2.new(0,0,0,ChannelHolderLayout.AbsoluteContentSize.Y)
@@ -2206,7 +2206,7 @@ function DiscordLib:Window(text)
 
 				ToggleFrame.Name = "ToggleFrame"
 				ToggleFrame.Parent = Toggle
-				ToggleFrame.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
+				ToggleFrame.BackgroundColor3 = Color3.fromRGB(114, 118, 125)
 				ToggleFrame.Position = UDim2.new(0.900481343, -5, 0.13300018, 0)
 				ToggleFrame.Size = UDim2.new(0, 40, 0, 21)
 
@@ -2233,7 +2233,7 @@ function DiscordLib:Window(text)
 				Icon.Position = UDim2.new(0, 8, 0, 8)
 				Icon.Size = UDim2.new(0, 13, 0, 13)
 				Icon.Image = "http://www.roblox.com/asset/?id=6035047409"
-				Icon.ImageColor3 = Color3.fromRGB(46, 204, 113)
+				Icon.ImageColor3 = Color3.fromRGB(114, 118, 125)
 				
 				Toggle.MouseButton1Click:Connect(function()
 					if toggled == false then
@@ -2264,12 +2264,12 @@ function DiscordLib:Window(text)
 						TweenService:Create(
 							Icon,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{ImageColor3 = Color3.fromRGB(46, 204, 113)}
+							{ImageColor3 = Color3.fromRGB(114, 118, 125)}
 						):Play()
 						TweenService:Create(
 							ToggleFrame,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(46, 204, 113)}
+							{BackgroundColor3 = Color3.fromRGB(114, 118, 125)}
 						):Play()
 						ToggleFrameCircle:TweenPosition(UDim2.new(0.234999999, -5, 0.133000001, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
 						TweenService:Create(
@@ -3120,7 +3120,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						TextboxFrameOutline,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(46, 204, 113)}
+						{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
 					):Play()
 				end)
 				
