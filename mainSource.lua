@@ -256,7 +256,7 @@ function DiscordLib:Window(text)
 	UserTag.TextXAlignment = Enum.TextXAlignment.Left
 	
 	UserName.Text = user
-	UserTag.Text = "#" .. tag
+	UserTag.Text = "@" .. tag
 
 	ServersHoldFrame.Name = "ServersHoldFrame"
 	ServersHoldFrame.Parent = MainFrame
@@ -1310,7 +1310,7 @@ function DiscordLib:Window(text)
 		HashtagLabel.Position = UDim2.new(0.765877604, 0, -0.0546001866, 0)
 		HashtagLabel.Size = UDim2.new(0, 23, 0, 37)
 		HashtagLabel.Font = Enum.Font.Gotham
-		HashtagLabel.Text = "#"
+		HashtagLabel.Text = "@"
 		HashtagLabel.TextColor3 = Color3.fromRGB(79, 82, 88)
 		HashtagLabel.TextSize = 16.000
 
