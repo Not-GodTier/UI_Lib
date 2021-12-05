@@ -1815,7 +1815,7 @@ function DiscordLib:Window(text)
 		Hashtag.Size = UDim2.new(0, 19, 0, 39)
 		Hashtag.Font = Enum.Font.Gotham
 		Hashtag.Text = "#"
-		Hashtag.TextColor3 = Color3.fromRGB(114, 118, 125)
+		Hashtag.TextColor3 = Color3.fromRGB(46, 204, 113)
 		Hashtag.TextSize = 25.000
 
 		ChannelTitle.Name = "ChannelTitle"
@@ -1848,7 +1848,7 @@ function DiscordLib:Window(text)
 		GlowChannel.Size = UDim2.new(1.06396091, 30, 0.228228226, 30)
 		GlowChannel.ZIndex = 0
 		GlowChannel.Image = "rbxassetid://4996891970"
-		GlowChannel.ImageColor3 = Color3.fromRGB(46, 204, 113)
+		GlowChannel.ImageColor3 = Color3.fromRGB(0, 0, 0)
 		GlowChannel.ScaleType = Enum.ScaleType.Slice
 		GlowChannel.SliceCenter = Rect.new(20, 20, 280, 280)
 
