@@ -548,7 +548,7 @@ function DiscordLib:Window(text)
 	UsernameText.Size = UDim2.new(0, 65, 0, 19)
 	UsernameText.Font = Enum.Font.GothamBold
 	UsernameText.Text = "USERNAME"
-	UsernameText.TextColor3 = Color3.fromRGB(126, 130, 136)
+	UsernameText.TextColor3 = Color3.fromRGB(46, 204, 113)
 	UsernameText.TextSize = 11.000
 	UsernameText.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -1264,7 +1264,7 @@ function DiscordLib:Window(text)
 		TextBoxFrame.Name = "TextBoxFrame"
 		TextBoxFrame.Parent = UserChange
 		TextBoxFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-		TextBoxFrame.BackgroundColor3 = Color3.fromRGB(37, 40, 43)
+		TextBoxFrame.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
 		TextBoxFrame.Position = UDim2.new(0.49710983, 0, 0.560606062, 0)
 		TextBoxFrame.Size = UDim2.new(0, 319, 0, 38)
 
@@ -1275,7 +1275,7 @@ function DiscordLib:Window(text)
 		TextBoxFrame1.Name = "TextBoxFrame1"
 		TextBoxFrame1.Parent = TextBoxFrame
 		TextBoxFrame1.AnchorPoint = Vector2.new(0.5, 0.5)
-		TextBoxFrame1.BackgroundColor3 = Color3.fromRGB(48, 51, 57)
+		TextBoxFrame1.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
 		TextBoxFrame1.Position = UDim2.new(0.5, 0, 0.5, 0)
 		TextBoxFrame1.Size = UDim2.new(0, 317, 0, 36)
 
