@@ -516,18 +516,18 @@ function DiscordLib:Window(text)
 	)
 
 	TextLabel.Parent = CloseSettingsBtn
-	TextLabel.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TextLabel.BackgroundTransparency = 1.000
 	TextLabel.Position = UDim2.new(-0.0666666701, 0, 1.06666672, 0)
 	TextLabel.Size = UDim2.new(0, 34, 0, 22)
 	TextLabel.Font = Enum.Font.GothamSemibold
 	TextLabel.Text = "rightctrl"
-	TextLabel.TextColor3 = Color3.fromRGB(113, 117, 123)
+	TextLabel.TextColor3 = Color3.fromRGB(46, 204, 113)
 	TextLabel.TextSize = 11.000
 
 	UserPanel.Name = "UserPanel"
 	UserPanel.Parent = SettingsHolder
-	UserPanel.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
+	UserPanel.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
 	UserPanel.Position = UDim2.new(0.365638763, 0, 0.130666673, 0)
 	UserPanel.Size = UDim2.new(0, 362, 0, 164)
 
@@ -542,7 +542,7 @@ function DiscordLib:Window(text)
 
 	UsernameText.Name = "UsernameText"
 	UsernameText.Parent = UserSettingsPad
-	UsernameText.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
+	UsernameText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	UsernameText.BackgroundTransparency = 1.000
 	UsernameText.Position = UDim2.new(0.0419999994, 0, 0.154714286, 0)
 	UsernameText.Size = UDim2.new(0, 65, 0, 19)
