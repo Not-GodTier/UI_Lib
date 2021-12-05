@@ -1118,7 +1118,7 @@ function DiscordLib:Window(text)
 	DiscordInfo.Position = UDim2.new(0.304721028, 0, 0.821333349, 0)
 	DiscordInfo.Size = UDim2.new(0, 133, 0, 44)
 	DiscordInfo.Font = Enum.Font.Gotham
-	DiscordInfo.Text = "Stable 1.0.0 (00001)  Host 0.0.0.1                Roblox Lua Engine    "
+	DiscordInfo.Text = "Extreme Hub 2021"
 	DiscordInfo.TextColor3 = Color3.fromRGB(101, 108, 116)
 	DiscordInfo.TextSize = 13.000
 	DiscordInfo.TextWrapped = true
@@ -1669,7 +1669,7 @@ function DiscordLib:Window(text)
 
 		Server.Name = text .. "Server"
 		Server.Parent = ServersHold
-		Server.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+		Server.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
 		Server.Position = UDim2.new(0.125, 0, 0, 0)
 		Server.Size = UDim2.new(0, 47, 0, 47)
 		Server.AutoButtonColor = false
@@ -1724,7 +1724,7 @@ function DiscordLib:Window(text)
 
 		ServerFrame.Name = "ServerFrame"
 		ServerFrame.Parent = ServersHolder
-		ServerFrame.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+		ServerFrame.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
 		ServerFrame.BorderSizePixel = 0
 		ServerFrame.ClipsDescendants = true
 		ServerFrame.Position = UDim2.new(0.105726875, 0, 1.01262593, 0)
