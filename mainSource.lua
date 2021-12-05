@@ -516,7 +516,7 @@ function DiscordLib:Window(text)
 	)
 
 	TextLabel.Parent = CloseSettingsBtn
-	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
 	TextLabel.BackgroundTransparency = 1.000
 	TextLabel.Position = UDim2.new(-0.0666666701, 0, 1.06666672, 0)
 	TextLabel.Size = UDim2.new(0, 34, 0, 22)
