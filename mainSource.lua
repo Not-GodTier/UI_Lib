@@ -1991,7 +1991,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				Server,
 				TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+				{BackgroundColor3 = Color3.fromRGB(46, 204, 113)}
 			):Play()
 			TweenService:Create(
 				ServerBtnCorner,
@@ -2092,7 +2092,7 @@ function DiscordLib:Window(text)
 			ChannelBtn.MouseLeave:Connect(function()
 				if currentchanneltoggled ~= ChannelBtn.Name then
 				ChannelBtn.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
-				ChannelBtnTitle.TextColor3 = Color3.fromRGB(46, 204, 113)
+				ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
 				end
 			end)
 			
@@ -2106,7 +2106,7 @@ function DiscordLib:Window(text)
 				for i, v in next, ServerChannelHolder:GetChildren() do
 					if v.ClassName == "TextButton" then
 						v.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
-						v.ChannelBtnTitle.TextColor3 = Color3.fromRGB(46, 204, 113)
+						v.ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
 					end
 					ServerFrame.Visible = true
 				end
