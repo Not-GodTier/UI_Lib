@@ -465,7 +465,7 @@ function DiscordLib:Window(text)
 
 	UserPanel.Name = "UserPanel"
 	UserPanel.Parent = SettingsHolder
-	UserPanel.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+	UserPanel.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
 	UserPanel.Position = UDim2.new(0.365638763, 0, 0.130666673, 0)
 	UserPanel.Size = UDim2.new(0, 362, 0, 164)
 
@@ -578,7 +578,7 @@ function DiscordLib:Window(text)
 	UserPanelUserCircle.BackgroundTransparency = 1.000
 	UserPanelUserCircle.Size = UDim2.new(0, 71, 0, 71)
 	UserPanelUserCircle.Image = "rbxassetid://4031889928"
-	UserPanelUserCircle.ImageColor3 = Color3.fromRGB(47, 49, 54)
+	UserPanelUserCircle.ImageColor3 = Color3.fromRGB(14, 14, 14)
 
 	BlackFrame.Name = "BlackFrame"
 	BlackFrame.Parent = UserPanelUserIcon
@@ -697,7 +697,7 @@ function DiscordLib:Window(text)
 
 		UnderBar.Name = "UnderBar"
 		UnderBar.Parent = AvatarChange
-		UnderBar.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+		UnderBar.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
 		UnderBar.Position = UDim2.new(-0.000297061284, 0, 0.945048928, 0)
 		UnderBar.Size = UDim2.new(0, 346, 0, 13)
 
@@ -707,7 +707,7 @@ function DiscordLib:Window(text)
 
 		UnderBarFrame.Name = "UnderBarFrame"
 		UnderBarFrame.Parent = UnderBar
-		UnderBarFrame.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+		UnderBarFrame.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
 		UnderBarFrame.BorderSizePixel = 0
 		UnderBarFrame.Position = UDim2.new(-0.000297061284, 0, -2.53846145, 0)
 		UnderBarFrame.Size = UDim2.new(0, 346, 0, 39)
@@ -1003,7 +1003,7 @@ function DiscordLib:Window(text)
 
 	LeftFrame.Name = "LeftFrame"
 	LeftFrame.Parent = SettingsHolder
-	LeftFrame.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+	LeftFrame.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
 	LeftFrame.BorderSizePixel = 0
 	LeftFrame.Position = UDim2.new(0, 0, -0.000303059904, 0)
 	LeftFrame.Size = UDim2.new(0, 233, 0, 375)
@@ -1162,7 +1162,7 @@ function DiscordLib:Window(text)
 
 		UnderBar.Name = "UnderBar"
 		UnderBar.Parent = UserChange
-		UnderBar.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+		UnderBar.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
 		UnderBar.Position = UDim2.new(-0.000297061284, 0, 0.945048928, 0)
 		UnderBar.Size = UDim2.new(0, 346, 0, 13)
 
@@ -1172,7 +1172,7 @@ function DiscordLib:Window(text)
 
 		UnderBarFrame.Name = "UnderBarFrame"
 		UnderBarFrame.Parent = UnderBar
-		UnderBarFrame.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+		UnderBarFrame.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
 		UnderBarFrame.BorderSizePixel = 0
 		UnderBarFrame.Position = UDim2.new(-0.000297061284, 0, -2.53846145, 0)
 		UnderBarFrame.Size = UDim2.new(0, 346, 0, 39)
@@ -1482,7 +1482,7 @@ function DiscordLib:Window(text)
 
 		UnderBar.Name = "UnderBar"
 		UnderBar.Parent = Notification
-		UnderBar.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+		UnderBar.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
 		UnderBar.Position = UDim2.new(-0.000297061284, 0, 0.945048928, 0)
 		UnderBar.Size = UDim2.new(0, 346, 0, 10)
 
@@ -1492,7 +1492,7 @@ function DiscordLib:Window(text)
 
 		UnderBarFrame.Name = "UnderBarFrame"
 		UnderBarFrame.Parent = UnderBar
-		UnderBarFrame.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+		UnderBarFrame.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
 		UnderBarFrame.BorderSizePixel = 0
 		UnderBarFrame.Position = UDim2.new(-0.000297061284, 0, -3.76068449, 0)
 		UnderBarFrame.Size = UDim2.new(0, 346, 0, 40)
@@ -2514,7 +2514,7 @@ function DiscordLib:Window(text)
 
 				DropdownFrameMain.Name = "DropdownFrameMain"
 				DropdownFrameMain.Parent = DropdownTitle
-				DropdownFrameMain.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+				DropdownFrameMain.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
 				DropdownFrameMain.ClipsDescendants = true
 				DropdownFrameMain.Position = UDim2.new(0.00999999978, 0, 2.2568965, 0)
 				DropdownFrameMain.Selectable = true
