@@ -1954,8 +1954,8 @@ function DiscordLib:Window(text)
 			ChannelBtnHashtag.Position = UDim2.new(0.0279720314, 0, 0, 0)
 			ChannelBtnHashtag.Size = UDim2.new(0, 24, 0, 30)
 			ChannelBtnHashtag.Font = Enum.Font.Gotham
-			ChannelBtnHashtag.Text = "#"
-			ChannelBtnHashtag.TextColor3 = Color3.fromRGB(46, 204, 113)
+			ChannelBtnHashtag.Text = "/"
+			ChannelBtnHashtag.TextColor3 = Color3.fromRGB(4, 4, 4)
 			ChannelBtnHashtag.TextSize = 21.000
 
 			ChannelBtnTitle.Name = "ChannelBtnTitle"
