@@ -2005,7 +2005,7 @@ function DiscordLib:Window(text)
 			ChannelBtn.MouseLeave:Connect(function()
 				if currentchanneltoggled ~= ChannelBtn.Name then
 				ChannelBtn.BackgroundColor3 = Color3.fromRGB(4, 4, 4)
-				ChannelBtnTitle.TextColor3 = Color3.fromRGB(46, 204, 113)
+				ChannelBtnTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 				end
 			end)
 			
@@ -2019,7 +2019,7 @@ function DiscordLib:Window(text)
 				for i, v in next, ServerChannelHolder:GetChildren() do
 					if v.ClassName == "TextButton" then
 						v.BackgroundColor3 = Color3.fromRGB(4, 4, 4)
-						v.ChannelBtnTitle.TextColor3 = Color3.fromRGB(46, 204, 113)
+						v.ChannelBtnTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 					end
 					ServerFrame.Visible = true
 				end
