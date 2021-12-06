@@ -2190,7 +2190,7 @@ function DiscordLib:Window(text)
 							TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 							{ImageTransparency = 1}
 						):Play()
-						Icon.Image = "http://www.roblox.com/asset/?id=6035047409"
+						Icon.Image = ""
 						wait(.1)
 						TweenService:Create(
 							Icon,
