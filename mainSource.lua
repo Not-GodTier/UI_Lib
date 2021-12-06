@@ -2024,7 +2024,7 @@ function DiscordLib:Window(text)
 					ServerFrame.Visible = true
 				end
 				ChannelTitle.Text = text
-				ChannelBtn.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+				ChannelBtn.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
 				ChannelBtnTitle.TextColor3 = Color3.fromRGB(255,255,255)
 				currentchanneltoggled = ChannelBtn.Name
 			end)
@@ -2032,7 +2032,7 @@ function DiscordLib:Window(text)
 			if fc == false then
 				fc = true
 				ChannelTitle.Text = text
-				ChannelBtn.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+				ChannelBtn.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
 				ChannelBtnTitle.TextColor3 = Color3.fromRGB(255,255,255)
 				currentchanneltoggled = ChannelBtn.Name
 				ChannelHolder.Visible = true
