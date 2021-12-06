@@ -2025,7 +2025,7 @@ function DiscordLib:Window(text)
 				end
 				ChannelTitle.Text = text
 				ChannelBtn.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
-				ChannelBtnTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+				ChannelBtnTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 				currentchanneltoggled = ChannelBtn.Name
 			end)
 			
@@ -2033,7 +2033,7 @@ function DiscordLib:Window(text)
 				fc = true
 				ChannelTitle.Text = text
 				ChannelBtn.BackgroundColor3 = Color3.fromRGB(46, 204, 113)
-				ChannelBtnTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+				ChannelBtnTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 				currentchanneltoggled = ChannelBtn.Name
 				ChannelHolder.Visible = true
 			end
