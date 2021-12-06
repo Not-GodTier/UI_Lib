@@ -2078,7 +2078,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						Button,
 						TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(46, 204, 113 )}
+						{BackgroundColor3 = Color3.fromRGB(14, 14, 14 )}
 					):Play()
 				end)
 				ChannelHolder.CanvasSize = UDim2.new(0,0,0,ChannelHolderLayout.AbsoluteContentSize.Y)
@@ -2166,7 +2166,7 @@ function DiscordLib:Window(text)
 							TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 							{ImageTransparency = 1}
 						):Play()
-						Icon.Image = "http://www.roblox.com/asset/?id=6023426926"
+						Icon.Image = ""
 						wait(.1)
 						TweenService:Create(
 							Icon,
