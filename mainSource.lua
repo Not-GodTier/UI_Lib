@@ -146,7 +146,7 @@ function DiscordLib:Window(text)
 	Title.Font = Enum.Font.Gotham
 	Title.Text = text
 	Title.TextColor3 = Color3.fromRGB(46, 204, 113)
-	Title.TextSize = 13.000
+	Title.TextSize = 16.000
 	Title.TextXAlignment = Enum.TextXAlignment.Left
 
 	CloseBtn.Name = "CloseBtn"
