@@ -196,68 +196,6 @@ function DiscordLib:Window(text)
 	ServersHolder.Name = "ServersHolder"
 	ServersHolder.Parent = TopFrameHolder
 
-	Userpad.Name = "Userpad"
-	Userpad.Parent = TopFrameHolder
-	Userpad.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
-	Userpad.BorderSizePixel = 0
-	Userpad.Position = UDim2.new(0.106243297, 0, 15.9807148, 0)
-	Userpad.Size = UDim2.new(0, 179, 0, 43)
-
-	UserIcon.Name = "UserIcon"
-	UserIcon.Parent = Userpad
-	UserIcon.BackgroundColor3 = Color3.fromRGB(31, 33, 36)
-	UserIcon.BorderSizePixel = 0
-	UserIcon.Position = UDim2.new(0.0340000018, 0, 0.123999998, 0)
-	UserIcon.Size = UDim2.new(0, 32, 0, 32)
-
-	UserIconCorner.CornerRadius = UDim.new(1, 8)
-	UserIconCorner.Name = "UserIconCorner"
-	UserIconCorner.Parent = UserIcon
-
-	UserImage.Name = "UserImage"
-	UserImage.Parent = UserIcon
-	UserImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	UserImage.BackgroundTransparency = 1.000
-	UserImage.Size = UDim2.new(0, 32, 0, 32)
-	UserImage.Image = pfp 
-	
-	UserCircleImage.Name = "UserImage"
-	UserCircleImage.Parent = UserImage
-	UserCircleImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	UserCircleImage.BackgroundTransparency = 1.000
-	UserCircleImage.Size = UDim2.new(0, 32, 0, 32)
-	UserCircleImage.Image = "rbxassetid://4031889928"
-	UserCircleImage.ImageColor3 = Color3.fromRGB(41, 43, 47)
-	
-	UserName.Name = "UserName"
-	UserName.Parent = Userpad
-	UserName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	UserName.BackgroundTransparency = 1.000
-	UserName.BorderSizePixel = 0
-	UserName.Position = UDim2.new(0.230000004, 0, 0.115999997, 0)
-	UserName.Size = UDim2.new(0, 98, 0, 17)
-	UserName.Font = Enum.Font.GothamSemibold
-	UserName.TextColor3 = Color3.fromRGB(255, 255, 255)
-	UserName.TextSize = 13.000
-	UserName.TextXAlignment = Enum.TextXAlignment.Left
-	UserName.ClipsDescendants = true
-
-	UserTag.Name = "UserTag"
-	UserTag.Parent = Userpad
-	UserTag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	UserTag.BackgroundTransparency = 1.000
-	UserTag.BorderSizePixel = 0
-	UserTag.Position = UDim2.new(0.230000004, 0, 0.455000013, 0)
-	UserTag.Size = UDim2.new(0, 95, 0, 17)
-	UserTag.Font = Enum.Font.Gotham
-	UserTag.TextColor3 = Color3.fromRGB(255, 255, 255)
-	UserTag.TextSize = 13.000
-	UserTag.TextTransparency = 0.300
-	UserTag.TextXAlignment = Enum.TextXAlignment.Left
-	
-	UserName.Text = user
-	UserTag.Text = "@" .. tag
-
 	ServersHoldFrame.Name = "ServersHoldFrame"
 	ServersHoldFrame.Parent = MainFrame
 	ServersHoldFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1283,18 +1221,6 @@ function DiscordLib:Window(text)
 		TextBoxFrame1Corner.Name = "TextBoxFrame1Corner"
 		TextBoxFrame1Corner.Parent = TextBoxFrame1
 
-		UsernameTextbox.Name = "UsernameTextbox"
-		UsernameTextbox.Parent = TextBoxFrame1
-		UsernameTextbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-		UsernameTextbox.BackgroundTransparency = 1.000
-		UsernameTextbox.Position = UDim2.new(0.0378548913, 0, 0, 0)
-		UsernameTextbox.Size = UDim2.new(0, 221, 0, 37)
-		UsernameTextbox.Font = Enum.Font.Gotham
-		UsernameTextbox.Text = user
-		UsernameTextbox.TextColor3 = Color3.fromRGB(193, 195, 197)
-		UsernameTextbox.TextSize = 14.000
-		UsernameTextbox.TextXAlignment = Enum.TextXAlignment.Left
-
 		Seperator.Name = "Seperator"
 		Seperator.Parent = TextBoxFrame1
 		Seperator.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1310,22 +1236,9 @@ function DiscordLib:Window(text)
 		HashtagLabel.Position = UDim2.new(0.765877604, 0, -0.0546001866, 0)
 		HashtagLabel.Size = UDim2.new(0, 23, 0, 37)
 		HashtagLabel.Font = Enum.Font.Gotham
-		HashtagLabel.Text = "@"
+		HashtagLabel.Text = ""
 		HashtagLabel.TextColor3 = Color3.fromRGB(79, 82, 88)
 		HashtagLabel.TextSize = 16.000
-
-		TagTextbox.Name = "TagTextbox"
-		TagTextbox.Parent = TextBoxFrame1
-		TagTextbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-		TagTextbox.BackgroundTransparency = 1.000
-		TagTextbox.Position = UDim2.new(0.824999988, 0, -0.0280000009, 0)
-		TagTextbox.Size = UDim2.new(0, 59, 0, 38)
-		TagTextbox.Font = Enum.Font.Gotham
-		TagTextbox.PlaceholderColor3 = Color3.fromRGB(210, 211, 212)
-		TagTextbox.Text = tag
-		TagTextbox.TextColor3 = Color3.fromRGB(193, 195, 197)
-		TagTextbox.TextSize = 14.000
-		TagTextbox.TextXAlignment = Enum.TextXAlignment.Left
 
 		ChangeBtn.Name = "ChangeBtn"
 		ChangeBtn.Parent = UserChange
@@ -1763,7 +1676,7 @@ function DiscordLib:Window(text)
 		ServerTitle.Font = Enum.Font.GothamSemibold
 		ServerTitle.Text = text
 		ServerTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
-		ServerTitle.TextSize = 15.000
+		ServerTitle.TextSize = 20.000
 		ServerTitle.TextXAlignment = Enum.TextXAlignment.Left
 
 		GlowFrame.Name = "GlowFrame"
@@ -1828,7 +1741,7 @@ function DiscordLib:Window(text)
 		ChannelTitle.Font = Enum.Font.GothamSemibold
 		ChannelTitle.Text = ""
 		ChannelTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
-		ChannelTitle.TextSize = 15.000
+		ChannelTitle.TextSize = 20.000
 		ChannelTitle.TextXAlignment = Enum.TextXAlignment.Left
 
 		ChannelContentFrame.Name = "ChannelContentFrame"
